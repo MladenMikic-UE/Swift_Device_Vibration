@@ -2,7 +2,7 @@
 //  Swift_Device_VibrationApp.swift
 //  Swift_Device_Vibration
 //
-//  Created by MladenMikic# on 11.10.2023..
+//  Created by MladenMikic# on 11.10.2023.
 //
 
 import SwiftUI

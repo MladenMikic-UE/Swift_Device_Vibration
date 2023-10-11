@@ -11,6 +11,7 @@
 		F63D7D4A2AD6EA0E008B729D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D7D492AD6EA0E008B729D /* ContentView.swift */; };
 		F63D7D4C2AD6EA0F008B729D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63D7D4B2AD6EA0F008B729D /* Assets.xcassets */; };
 		F63D7D4F2AD6EA0F008B729D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63D7D4E2AD6EA0F008B729D /* Preview Assets.xcassets */; };
+		F63D7D562AD6EA40008B729D /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D7D552AD6EA40008B729D /* Vibration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F63D7D492AD6EA0E008B729D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F63D7D4B2AD6EA0F008B729D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F63D7D4E2AD6EA0F008B729D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F63D7D552AD6EA40008B729D /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F63D7D472AD6EA0E008B729D /* Swift_Device_VibrationApp.swift */,
 				F63D7D492AD6EA0E008B729D /* ContentView.swift */,
+				F63D7D552AD6EA40008B729D /* Vibration.swift */,
 				F63D7D4B2AD6EA0F008B729D /* Assets.xcassets */,
 				F63D7D4D2AD6EA0F008B729D /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63D7D562AD6EA40008B729D /* Vibration.swift in Sources */,
 				F63D7D4A2AD6EA0E008B729D /* ContentView.swift in Sources */,
 				F63D7D482AD6EA0E008B729D /* Swift_Device_VibrationApp.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

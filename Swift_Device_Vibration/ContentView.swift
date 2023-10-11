@@ -1,21 +1,35 @@
-//
-//  ContentView.swift
-//  Swift_Device_Vibration
-//
-//  Created by MladenMikic# on 11.10.2023..
-//
+// A basic vibration solution.
+
+// More advanced Vibration solution:
+// https://developer.apple.com/documentation/corehaptics/chhapticengine?language=objc
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        HStack {
+            Spacer()
+            VStack(spacing: 20) {
+                ForEach(Vibration.allCases) { virationCase in
+                    Button {
+                        virationCase.vibrateRepeatedly()
+                    } label: {
+                        Text(virationCase.rawValue)
+                    }
+                }
+            }
+            Spacer()
+            VStack(spacing: 20) {
+                ForEach(Vibration.allCases) { virationCase in
+                    Button {
+                        virationCase.vibrateRepeatedly()
+                    } label: {
+                        Text(virationCase.rawValue + " (xN)")
+                    }
+                }
+            }
+            Spacer()
         }
-        .padding()
     }
 }
 
@@ -24,3 +38,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
